@@ -8,7 +8,7 @@ Theres been a lot of discussion about whether post-quantum cryptography can work
 
 I've successfully created and verified 15-hop BGPsec paths (and 80-hop) with Falcon-512 signatures. The total message size is around 10 KB, which fits comfortably in modern network infrastructure. Signing takes about 0.3 milliseconds per hop, and verification takes about 0.1 milliseconds per hop. All signatures verify correctly, and the implementation follows RFC 8205 precisely.
 
-The research impact is clear: this demonstrates that post-quantum BGPsec with Falcon-512 is not only possible but also practical. 
+this demonstrates that post-quantum BGPsec with Falcon-512 is not only possible but also practical. 
 
 The takeaway: this work proves the technical feasibility. Deployment challenges are separate issues involving coordination, economics, and policy decisions. But the underlying protocol and cryptography work, and they work well.
 
