@@ -113,9 +113,9 @@ Testing hop counts: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15
 
 ### Scaling Behavior
 
-- Message size scales linearly: YES ✓
-- Signing scales linearly: NO ✗
-- Verification scales linearly: NO ✗
+- Message size scales linearly: YES
+- Signing scales linearly: NO
+- Verification scales linearly: NO
 - Average bytes per hop: 671.6 bytes
 - Average signing time per hop: 0.27 ms
 - Average verification time per hop: 0.08 ms
@@ -133,7 +133,7 @@ Testing hop counts: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15
 
 2. Performance is consistent: ~275 μs signing, ~77 μs verification per hop
 
-3. All signatures valid: YES ✓
+3. All signatures valid: YES
 
 4. Router throughput estimate (5-hop path):
    - ~600 BGPsec routes/second

@@ -14,6 +14,9 @@ The takeaway: this work proves the technical feasibility. Deployment challenges 
 
 ## Technical Results
 
+### Hop Analysis
+[Scaling Analysis Results.md](results/scaling_analysis_results.md)
+
 ### 15-Hop Realistic Test
 
 This represents a realistic long path scenario (typical Internet paths are 3-8 hops):
